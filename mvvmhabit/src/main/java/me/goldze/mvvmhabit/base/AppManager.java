@@ -167,7 +167,7 @@ public class AppManager {
     }
 
     /**
-     * 获取当前Activity（堆栈中最后一个压入的）
+     * 获取当前Fragment（堆栈中最后一个压入的）
      */
     public Fragment currentFragment() {
         if (fragmentStack != null) {
